@@ -30,6 +30,7 @@ export default Ember.Component.extend({
   searchPlaceholder: fallbackIfUndefined(null),
   allowClear: fallbackIfUndefined(false),
   triggerComponent: fallbackIfUndefined('power-select/trigger'),
+  triggerDisabled: fallbackIfUndefined(false),
   selectedItemComponent: fallbackIfUndefined(null),
   optionsComponent: fallbackIfUndefined('power-select/options'),
   beforeOptionsComponent: fallbackIfUndefined('power-select/before-options'),
